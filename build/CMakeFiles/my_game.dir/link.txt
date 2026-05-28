@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/my_game.dir/link.d CMakeFiles/my_game.dir/main.cpp.o -o my_game  /usr/lib/libSDL3_image.so.0.4.4 /usr/lib/libSDL3.so.0.4.8
