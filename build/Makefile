@@ -129,6 +129,30 @@ my_game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/build
 .PHONY : my_game/fast
 
+longjohnmon.o: longjohnmon.cpp.o
+.PHONY : longjohnmon.o
+
+# target to build an object file
+longjohnmon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/longjohnmon.cpp.o
+.PHONY : longjohnmon.cpp.o
+
+longjohnmon.i: longjohnmon.cpp.i
+.PHONY : longjohnmon.i
+
+# target to preprocess a source file
+longjohnmon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/longjohnmon.cpp.i
+.PHONY : longjohnmon.cpp.i
+
+longjohnmon.s: longjohnmon.cpp.s
+.PHONY : longjohnmon.s
+
+# target to generate assembly for a file
+longjohnmon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/longjohnmon.cpp.s
+.PHONY : longjohnmon.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_game"
+	@echo "... longjohnmon.o"
+	@echo "... longjohnmon.i"
+	@echo "... longjohnmon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -5,14 +5,46 @@
 #include <string>
 #include <vector>
 
-static void cleanup(SDL_Window *window, SDL_Renderer *renderer, const std::vector<SDL_Texture*> &textures)
+SDL_Texture* load_texture(const std::string &path, SDL_Renderer *renderer);
+
+static void cleanup(SDL_Window *window, SDL_Renderer *renderer, const std::vector<Longjohn> &longjohns, TTF_Font* font)
 {
-    for (SDL_Texture *itr : textures) {
-        SDL_DestroyTexture(itr);
+    for (const Longjohn& itr : longjohns) {
+        SDL_DestroyTexture(itr.texture);
     }
+
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
+    TTF_CloseFont(font);
+    TTF_Quit();
     SDL_Quit();
+}
+
+//example color --> SDL_MapRGB(fmt, nullptr, 50, 50, 50)
+// static void setBkg(SDL_Window *window, Uint32 color) {
+// 	SDL_Surface* windowSurface = SDL_GetWindowSurface(window);
+//     const SDL_PixelFormatDetails* fmt = SDL_GetPixelFormatDetails(windowSurface->format);
+// 	SDL_FillSurfaceRect(windowSurface, nullptr, color);
+// 	SDL_UpdateWindowSurface(window);
+// }
+
+void renderLongjohns(SDL_Renderer* renderer, const std::vector<Longjohn>& longjohns)
+{
+    for (const Longjohn& itr : longjohns) {
+        itr.render(renderer);
+    }
+}
+
+Longjohn init_longjohn(std::string sprite_path, SDL_Renderer* renderer, float posX, float posY, float sizeX, float sizeY) {
+    Longjohn new_john;
+
+    new_john.position = {posX, posY};
+    new_john.size = {sizeX, sizeY};
+    new_john.sprite = sprite_path;
+
+    new_john.texture = load_texture(sprite_path, renderer);
+
+    return new_john;
 }
 
 SDL_Texture* load_texture(const std::string &path, SDL_Renderer *renderer)
@@ -40,26 +72,36 @@ int main(int argc, char *argv[])
     (void)argc;
     (void)argv;
 
-    std::vector<SDL_Texture*> textures = {};
-
-    Longjohn test;
-    test.sprite = "assets/tim.png";
-
     if (!SDL_Init(SDL_INIT_VIDEO)) {
         SDL_Log("SDL_Init failed: %s", SDL_GetError());
         return 1;
     }
 
+    TTF_Init();
+
+    //default pokemon size is 320x320 for this project, so use that along with window size for positions
+    int winX = 800, winY = 600;
+    int ljSize = 320;
+
     SDL_Window *window = SDL_CreateWindow(
-        "SDL3 Boilerplate",
-        800,
-        600,
-        SDL_WINDOW_RESIZABLE
+        "Longjohnemon",
+        winX,
+        winY,
+        // SDL_WINDOW_RESIZABLE
+        0
     );
     
     SDL_Renderer *renderer = SDL_CreateRenderer(window, NULL);
-    SDL_Texture *texture = load_texture(test.sprite, renderer);
-    textures.push_back(texture);
+
+    std::vector<Longjohn> longjohns;
+
+    //pokemon initialization
+
+    Longjohn tim = init_longjohn("assets/tim.png", renderer, 0, winY - ljSize, ljSize, ljSize);
+    Longjohn gabe = init_longjohn("assets/gabe.png", renderer, winX - ljSize, 0, ljSize, ljSize);
+
+    longjohns.push_back(gabe);
+    longjohns.push_back(tim);
 
     bool running = true;
 
@@ -77,16 +119,14 @@ int main(int argc, char *argv[])
             }
         }
 
-        SDL_SetRenderDrawColor(renderer, 20, 20, 20, 255);
+        SDL_SetRenderDrawColor(renderer, 120, 120, 120, 120);
         SDL_RenderClear(renderer);
 
-        SDL_RenderTexture(renderer, texture, NULL, NULL);
+        renderLongjohns(renderer, longjohns);
 
         SDL_RenderPresent(renderer);
     }
 
-    cleanup(window, renderer, )
-
-    SDL_Quit();
+    cleanup(window, renderer, longjohns);
     return 0;
 }

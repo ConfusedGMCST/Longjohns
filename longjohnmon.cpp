@@ -1,9 +1,16 @@
-#include <array>
-#include <string>
+#include "longjohn.h"
 
-class Longjohn {
-public:
-    std::array<float, 2> position;
-    std::array<float, 2> size;
-    std::string sprite;
-};
+void Longjohn::render(SDL_Renderer* renderer) const
+{
+    if (!texture) {
+        return;
+    }
+    SDL_FRect dst;
+
+    dst.x = position[0];
+    dst.y = position[1];
+    dst.w = size[0];
+    dst.h = size[1];
+
+    SDL_RenderTexture(renderer, texture, NULL, &dst);
+}

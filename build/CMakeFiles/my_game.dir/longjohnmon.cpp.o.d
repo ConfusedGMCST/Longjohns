@@ -1,62 +1,15 @@
-CMakeFiles/my_game.dir/main.cpp.o: \
- /home/christian/Documents/GitHub/Longjohns/main.cpp \
- /usr/include/stdc-predef.h /usr/include/SDL3/SDL.h \
- /usr/include/SDL3/SDL_stdinc.h /usr/include/SDL3/SDL_platform_defines.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
- /usr/include/string.h /usr/include/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
- /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/wchar.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/wchar.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/SDL3/SDL_begin_code.h \
- /usr/include/SDL3/SDL_close_code.h /usr/include/SDL3/SDL_assert.h \
- /usr/include/SDL3/SDL_asyncio.h /usr/include/SDL3/SDL_atomic.h \
- /usr/include/SDL3/SDL_audio.h /usr/include/SDL3/SDL_endian.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/SDL3/SDL_error.h \
- /usr/include/SDL3/SDL_mutex.h /usr/include/SDL3/SDL_thread.h \
- /usr/include/SDL3/SDL_properties.h /usr/include/SDL3/SDL_iostream.h \
- /usr/include/SDL3/SDL_bits.h /usr/include/SDL3/SDL_blendmode.h \
- /usr/include/SDL3/SDL_camera.h /usr/include/SDL3/SDL_pixels.h \
- /usr/include/SDL3/SDL_surface.h /usr/include/SDL3/SDL_rect.h \
- /usr/include/SDL3/SDL_clipboard.h /usr/include/SDL3/SDL_cpuinfo.h \
- /usr/include/SDL3/SDL_dialog.h /usr/include/SDL3/SDL_video.h \
- /usr/include/SDL3/SDL_dlopennote.h /usr/include/SDL3/SDL_events.h \
- /usr/include/SDL3/SDL_gamepad.h /usr/include/SDL3/SDL_guid.h \
- /usr/include/SDL3/SDL_joystick.h /usr/include/SDL3/SDL_power.h \
- /usr/include/SDL3/SDL_sensor.h /usr/include/SDL3/SDL_keyboard.h \
- /usr/include/SDL3/SDL_keycode.h /usr/include/SDL3/SDL_scancode.h \
- /usr/include/SDL3/SDL_mouse.h /usr/include/SDL3/SDL_pen.h \
- /usr/include/SDL3/SDL_touch.h /usr/include/SDL3/SDL_filesystem.h \
- /usr/include/SDL3/SDL_gpu.h /usr/include/SDL3/SDL_haptic.h \
- /usr/include/SDL3/SDL_hidapi.h /usr/include/SDL3/SDL_hints.h \
- /usr/include/SDL3/SDL_init.h /usr/include/SDL3/SDL_loadso.h \
- /usr/include/SDL3/SDL_locale.h /usr/include/SDL3/SDL_log.h \
- /usr/include/SDL3/SDL_messagebox.h /usr/include/SDL3/SDL_metal.h \
- /usr/include/SDL3/SDL_misc.h /usr/include/SDL3/SDL_platform.h \
- /usr/include/SDL3/SDL_process.h /usr/include/SDL3/SDL_render.h \
- /usr/include/SDL3/SDL_storage.h /usr/include/SDL3/SDL_system.h \
- /usr/include/SDL3/SDL_time.h /usr/include/SDL3/SDL_timer.h \
- /usr/include/SDL3/SDL_tray.h /usr/include/SDL3/SDL_version.h \
- /usr/include/SDL3/SDL_oldnames.h /usr/include/SDL3_image/SDL_image.h \
- /usr/include/SDL3/SDL_main.h \
+CMakeFiles/my_game.dir/longjohnmon.cpp.o: \
+ /home/christian/Documents/GitHub/Longjohns/longjohnmon.cpp \
+ /usr/include/stdc-predef.h \
  /home/christian/Documents/GitHub/Longjohns/longjohn.h \
  /usr/include/c++/16.1.1/array /usr/include/c++/16.1.1/compare \
  /usr/include/c++/16.1.1/bits/version.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/16.1.1/pstl/pstl_config.h \
  /usr/include/c++/16.1.1/concepts /usr/include/c++/16.1.1/type_traits \
@@ -93,6 +46,15 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/memoryfwd.h \
  /usr/include/c++/16.1.1/bits/char_traits.h \
  /usr/include/c++/16.1.1/bits/postypes.h /usr/include/c++/16.1.1/cwchar \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h \
  /usr/include/c++/16.1.1/bits/allocator.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/16.1.1/bits/new_allocator.h \
@@ -102,6 +64,9 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/c++/16.1.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/16.1.1/iosfwd \
  /usr/include/c++/16.1.1/cctype /usr/include/ctype.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h \
  /usr/include/c++/16.1.1/bits/ostream_insert.h \
  /usr/include/c++/16.1.1/bits/cxxabi_forced.h \
  /usr/include/c++/16.1.1/bits/erase_if.h \
@@ -120,7 +85,9 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/sys/select.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
  /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct_timeval.h \
@@ -146,9 +113,37 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/uses_allocator.h \
  /usr/include/c++/16.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/16.1.1/tuple /usr/include/c++/16.1.1/bits/invoke.h \
- /usr/include/c++/16.1.1/bits/ranges_util.h \
- /usr/include/c++/16.1.1/vector \
- /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/16.1.1/bits/stl_vector.h \
- /usr/include/c++/16.1.1/bits/stl_bvector.h \
- /usr/include/c++/16.1.1/bits/vector.tcc
+ /usr/include/c++/16.1.1/bits/ranges_util.h /usr/include/SDL3/SDL.h \
+ /usr/include/SDL3/SDL_stdinc.h /usr/include/SDL3/SDL_platform_defines.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/SDL3/SDL_begin_code.h \
+ /usr/include/SDL3/SDL_close_code.h /usr/include/SDL3/SDL_assert.h \
+ /usr/include/SDL3/SDL_asyncio.h /usr/include/SDL3/SDL_atomic.h \
+ /usr/include/SDL3/SDL_audio.h /usr/include/SDL3/SDL_endian.h \
+ /usr/include/SDL3/SDL_error.h /usr/include/SDL3/SDL_mutex.h \
+ /usr/include/SDL3/SDL_thread.h /usr/include/SDL3/SDL_properties.h \
+ /usr/include/SDL3/SDL_iostream.h /usr/include/SDL3/SDL_bits.h \
+ /usr/include/SDL3/SDL_blendmode.h /usr/include/SDL3/SDL_camera.h \
+ /usr/include/SDL3/SDL_pixels.h /usr/include/SDL3/SDL_surface.h \
+ /usr/include/SDL3/SDL_rect.h /usr/include/SDL3/SDL_clipboard.h \
+ /usr/include/SDL3/SDL_cpuinfo.h /usr/include/SDL3/SDL_dialog.h \
+ /usr/include/SDL3/SDL_video.h /usr/include/SDL3/SDL_dlopennote.h \
+ /usr/include/SDL3/SDL_events.h /usr/include/SDL3/SDL_gamepad.h \
+ /usr/include/SDL3/SDL_guid.h /usr/include/SDL3/SDL_joystick.h \
+ /usr/include/SDL3/SDL_power.h /usr/include/SDL3/SDL_sensor.h \
+ /usr/include/SDL3/SDL_keyboard.h /usr/include/SDL3/SDL_keycode.h \
+ /usr/include/SDL3/SDL_scancode.h /usr/include/SDL3/SDL_mouse.h \
+ /usr/include/SDL3/SDL_pen.h /usr/include/SDL3/SDL_touch.h \
+ /usr/include/SDL3/SDL_filesystem.h /usr/include/SDL3/SDL_gpu.h \
+ /usr/include/SDL3/SDL_haptic.h /usr/include/SDL3/SDL_hidapi.h \
+ /usr/include/SDL3/SDL_hints.h /usr/include/SDL3/SDL_init.h \
+ /usr/include/SDL3/SDL_loadso.h /usr/include/SDL3/SDL_locale.h \
+ /usr/include/SDL3/SDL_log.h /usr/include/SDL3/SDL_messagebox.h \
+ /usr/include/SDL3/SDL_metal.h /usr/include/SDL3/SDL_misc.h \
+ /usr/include/SDL3/SDL_platform.h /usr/include/SDL3/SDL_process.h \
+ /usr/include/SDL3/SDL_render.h /usr/include/SDL3/SDL_storage.h \
+ /usr/include/SDL3/SDL_system.h /usr/include/SDL3/SDL_time.h \
+ /usr/include/SDL3/SDL_timer.h /usr/include/SDL3/SDL_tray.h \
+ /usr/include/SDL3/SDL_version.h /usr/include/SDL3/SDL_oldnames.h
