@@ -11,6 +11,8 @@ public:
     std::array<float, 2> size;
     std::string sprite;
     SDL_Texture* texture;
+    float health;
+    int level;
 
     void render(SDL_Renderer* renderer) const;
 };

@@ -5,6 +5,7 @@ my_game: \
   CMakeFiles/my_game.dir/main.cpp.o \
   CMakeFiles/my_game.dir/longjohnmon.cpp.o \
   CMakeFiles/my_game.dir/texthandler.cpp.o \
+  CMakeFiles/my_game.dir/buttonhandler.cpp.o \
   /usr/lib/libSDL3_image.so.0.4.4 \
   /usr/lib/libSDL3_ttf.so.0.2.2 \
   /usr/lib/libSDL3.so.0.4.8 \
@@ -61,6 +62,8 @@ CMakeFiles/my_game.dir/main.cpp.o:
 CMakeFiles/my_game.dir/longjohnmon.cpp.o:
 
 CMakeFiles/my_game.dir/texthandler.cpp.o:
+
+CMakeFiles/my_game.dir/buttonhandler.cpp.o:
 
 /usr/lib/libSDL3_image.so.0.4.4:
 

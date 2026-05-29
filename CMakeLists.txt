@@ -11,6 +11,7 @@ add_executable(my_game
     main.cpp
     longjohnmon.cpp
     texthandler.cpp
+    buttonhandler.cpp
 )
 
 # Link the libraries

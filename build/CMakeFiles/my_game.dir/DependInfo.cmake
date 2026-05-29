@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/christian/Documents/GitHub/Longjohns/buttonhandler.cpp" "CMakeFiles/my_game.dir/buttonhandler.cpp.o" "gcc" "CMakeFiles/my_game.dir/buttonhandler.cpp.o.d"
   "/home/christian/Documents/GitHub/Longjohns/longjohnmon.cpp" "CMakeFiles/my_game.dir/longjohnmon.cpp.o" "gcc" "CMakeFiles/my_game.dir/longjohnmon.cpp.o.d"
   "/home/christian/Documents/GitHub/Longjohns/main.cpp" "CMakeFiles/my_game.dir/main.cpp.o" "gcc" "CMakeFiles/my_game.dir/main.cpp.o.d"
   "/home/christian/Documents/GitHub/Longjohns/texthandler.cpp" "CMakeFiles/my_game.dir/texthandler.cpp.o" "gcc" "CMakeFiles/my_game.dir/texthandler.cpp.o.d"

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_game.dir/link.d"
+  "CMakeFiles/my_game.dir/buttonhandler.cpp.o"
+  "CMakeFiles/my_game.dir/buttonhandler.cpp.o.d"
   "CMakeFiles/my_game.dir/longjohnmon.cpp.o"
   "CMakeFiles/my_game.dir/longjohnmon.cpp.o.d"
   "CMakeFiles/my_game.dir/main.cpp.o"

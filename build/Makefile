@@ -129,6 +129,30 @@ my_game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/build
 .PHONY : my_game/fast
 
+buttonhandler.o: buttonhandler.cpp.o
+.PHONY : buttonhandler.o
+
+# target to build an object file
+buttonhandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/buttonhandler.cpp.o
+.PHONY : buttonhandler.cpp.o
+
+buttonhandler.i: buttonhandler.cpp.i
+.PHONY : buttonhandler.i
+
+# target to preprocess a source file
+buttonhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/buttonhandler.cpp.i
+.PHONY : buttonhandler.cpp.i
+
+buttonhandler.s: buttonhandler.cpp.s
+.PHONY : buttonhandler.s
+
+# target to generate assembly for a file
+buttonhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/buttonhandler.cpp.s
+.PHONY : buttonhandler.cpp.s
+
 longjohnmon.o: longjohnmon.cpp.o
 .PHONY : longjohnmon.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_game"
+	@echo "... buttonhandler.o"
+	@echo "... buttonhandler.i"
+	@echo "... buttonhandler.s"
 	@echo "... longjohnmon.o"
 	@echo "... longjohnmon.i"
 	@echo "... longjohnmon.s"
