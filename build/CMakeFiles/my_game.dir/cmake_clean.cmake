@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_game.dir/longjohnmon.cpp.o.d"
   "CMakeFiles/my_game.dir/main.cpp.o"
   "CMakeFiles/my_game.dir/main.cpp.o.d"
+  "CMakeFiles/my_game.dir/texthandler.cpp.o"
+  "CMakeFiles/my_game.dir/texthandler.cpp.o.d"
   "my_game"
   "my_game.pdb"
 )

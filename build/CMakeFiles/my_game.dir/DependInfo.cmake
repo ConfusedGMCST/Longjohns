@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/christian/Documents/GitHub/Longjohns/longjohnmon.cpp" "CMakeFiles/my_game.dir/longjohnmon.cpp.o" "gcc" "CMakeFiles/my_game.dir/longjohnmon.cpp.o.d"
   "/home/christian/Documents/GitHub/Longjohns/main.cpp" "CMakeFiles/my_game.dir/main.cpp.o" "gcc" "CMakeFiles/my_game.dir/main.cpp.o.d"
+  "/home/christian/Documents/GitHub/Longjohns/texthandler.cpp" "CMakeFiles/my_game.dir/texthandler.cpp.o" "gcc" "CMakeFiles/my_game.dir/texthandler.cpp.o.d"
   "" "my_game" "gcc" "CMakeFiles/my_game.dir/link.d"
   )
 

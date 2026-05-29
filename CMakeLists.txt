@@ -10,6 +10,7 @@ find_package(SDL3_ttf REQUIRED)
 add_executable(my_game
     main.cpp
     longjohnmon.cpp
+    texthandler.cpp
 )
 
 # Link the libraries

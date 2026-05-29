@@ -1,7 +1,9 @@
-CMakeFiles/my_game.dir/main.cpp.o: \
- /home/christian/Documents/GitHub/Longjohns/main.cpp \
- /usr/include/stdc-predef.h /usr/include/SDL3/SDL.h \
- /usr/include/SDL3/SDL_stdinc.h /usr/include/SDL3/SDL_platform_defines.h \
+CMakeFiles/my_game.dir/texthandler.cpp.o: \
+ /home/christian/Documents/GitHub/Longjohns/texthandler.cpp \
+ /usr/include/stdc-predef.h \
+ /home/christian/Documents/GitHub/Longjohns/texthandler.h \
+ /usr/include/SDL3/SDL.h /usr/include/SDL3/SDL_stdinc.h \
+ /usr/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -50,9 +52,7 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/SDL3/SDL_storage.h /usr/include/SDL3/SDL_system.h \
  /usr/include/SDL3/SDL_time.h /usr/include/SDL3/SDL_timer.h \
  /usr/include/SDL3/SDL_tray.h /usr/include/SDL3/SDL_version.h \
- /usr/include/SDL3/SDL_oldnames.h /usr/include/SDL3_image/SDL_image.h \
- /usr/include/SDL3/SDL_main.h \
- /home/christian/Documents/GitHub/Longjohns/longjohn.h \
+ /usr/include/SDL3/SDL_oldnames.h /usr/include/SDL3_ttf/SDL_ttf.h \
  /usr/include/c++/16.1.1/array /usr/include/c++/16.1.1/compare \
  /usr/include/c++/16.1.1/bits/version.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -146,10 +146,4 @@ CMakeFiles/my_game.dir/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/uses_allocator.h \
  /usr/include/c++/16.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/16.1.1/tuple /usr/include/c++/16.1.1/bits/invoke.h \
- /usr/include/c++/16.1.1/bits/ranges_util.h \
- /home/christian/Documents/GitHub/Longjohns/texthandler.h \
- /usr/include/SDL3_ttf/SDL_ttf.h /usr/include/c++/16.1.1/vector \
- /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/16.1.1/bits/stl_vector.h \
- /usr/include/c++/16.1.1/bits/stl_bvector.h \
- /usr/include/c++/16.1.1/bits/vector.tcc
+ /usr/include/c++/16.1.1/bits/ranges_util.h

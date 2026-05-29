@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+texthandler.o: texthandler.cpp.o
+.PHONY : texthandler.o
+
+# target to build an object file
+texthandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/texthandler.cpp.o
+.PHONY : texthandler.cpp.o
+
+texthandler.i: texthandler.cpp.i
+.PHONY : texthandler.i
+
+# target to preprocess a source file
+texthandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/texthandler.cpp.i
+.PHONY : texthandler.cpp.i
+
+texthandler.s: texthandler.cpp.s
+.PHONY : texthandler.s
+
+# target to generate assembly for a file
+texthandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_game.dir/build.make CMakeFiles/my_game.dir/texthandler.cpp.s
+.PHONY : texthandler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... texthandler.o"
+	@echo "... texthandler.i"
+	@echo "... texthandler.s"
 .PHONY : help
 
 
